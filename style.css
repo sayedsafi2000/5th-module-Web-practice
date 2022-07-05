@@ -21,7 +21,6 @@ header {
     width: 45%;
     margin-left: 60px;
     margin-top: 200px;
-    overflow: hidden;
 }
 
 .left-side h1 {
@@ -45,19 +44,20 @@ header {
 .left-side a {
     color: #fff;
     background-image: linear-gradient(to right, orange, orangered);
-    padding: 20px 50px;
+    padding: 15px 50px;
     border-radius: 30px;
-    margin-right: 10px;
 }
 
 .right-side {
-    width: 55%;
-    margin-top: 50px;
+    width: 50%;
     margin-right: 5%;
+    position: relative;
 }
 
 .right-side img {
     width: 100%;
+    position: absolute;
+    top: 16%;
 }
 
 .container-bg {
@@ -65,6 +65,7 @@ header {
     height: 90vh;
     background-position: center;
     width: 100%;
+
 }
 
 .container {
@@ -72,6 +73,7 @@ header {
     width: 80%;
     margin: 0 auto;
     display: flex;
+
 }
 
 .left-container {
